@@ -59,7 +59,14 @@ const toggleOpen = useCallback(()=>{
            >
             <div className="flex fles-col cursor-pointer">
                 <>
-                <MenuItem/>
+                <MenuItem 
+                onClick={()=>{}}
+                label = "Login"
+                />
+                <MenuItem 
+                onClick={()=>{}}
+                label = "SignUp"
+                />
                 </>
             </div>
            </div>
